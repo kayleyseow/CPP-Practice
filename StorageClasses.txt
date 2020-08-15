@@ -1,0 +1,41 @@
+Storage Classes Notes
+8/14/2020
+
+There are five types of storage classes in C++
+  - 1. Automatic
+  - 2. Static 
+  - 3. Extern 
+  - 4. Register
+  - 5. "Free Store Objects"
+
+Automatic 
+•some space is allocated when the function is running
+•can declare as "auto", but because it is default, almost never used
+•only be used withing functions, such as local veriables
+•for example, "int month;" is the same as "auto int month;"
+
+Static
+•starts when program excecutes, lasts until the program ends
+•maintain values between function calls
+•can be added to global variables (cannot be accessed through other files)
+•they will access the same memory block
+•**declaration of static x assumes variable x to be an int, if not an int, you must explicitly state (static double x)
+
+Extern
+•reference of global variable visible to ALL program files
+•point to variable name that has been previously defined
+•used when there are two or more files sharing the same global variables or functions
+•used to declare global variable in another file
+
+Register
+•variables that should be stored in register instead of RAM
+•when you make a variable, memory will be allocated
+•used for variables that require quick access, such as counters
+•*might* be stored in a register depending on hardware and implementation restrictions
+
+Free Store Objects/Mutable
+•member of an object to override a constant
+•can be modified by a const member function
+•objects created using the new operator, objects remain in existence until you use the delete operator
+•these objects are not automatic, not destroyed when program is over
+•control over memory use
