@@ -11,11 +11,11 @@ There are five types of storage classes in C++
 Automatic 
 •some space is allocated when the function is running
 •can declare as "auto", but because it is default, almost never used
-•only be used withing functions, such as local veriables
+•only be used within functions, such as local variables
 •for example, "int month;" is the same as "auto int month;"
 
 Static
-•starts when program excecutes, lasts until the program ends
+•starts when program executes, lasts until the program ends
 •maintain values between function calls
 •can be added to global variables (cannot be accessed through other files)
 •they will access the same memory block
