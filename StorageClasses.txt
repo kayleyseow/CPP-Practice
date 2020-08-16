@@ -39,3 +39,11 @@ Free Store Objects/Mutable
 •objects created using the new operator, objects remain in existence until you use the delete operator
 •these objects are not automatic, not destroyed when program is over
 •control over memory use
+
+Helpful Links:
+  - "C++ - Storage Classes", https://www.youtube.com/watch?v=NuramFTO6Mk
+  - "C++ - Auto Storage Class", https://www.youtube.com/watch?v=mnyKrsU49Zs&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=35
+  - "C++ - Static Storage Class", https://www.youtube.com/watch?v=QJnIGL1KVhc&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=37
+  - "C++ - Extern Storage Class", https://www.youtube.com/watch?v=PjdBu1GKDn4&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=38
+  - "C++ - Register Storage Class", https://www.youtube.com/watch?v=fyAD7fbVCfg&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=36
+  - "C++ - Mutable Storage Class", https://www.youtube.com/watch?v=UFNXd0p7rSA&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=39
