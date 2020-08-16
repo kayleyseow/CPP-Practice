@@ -40,7 +40,7 @@ Free Store Objects/Mutable
 •these objects are not automatic, not destroyed when program is over
 •control over memory use
 
-Helpful Links:
+Helpful Links
   - "C++ - Storage Classes", https://www.youtube.com/watch?v=NuramFTO6Mk
   - "C++ - Auto Storage Class", https://www.youtube.com/watch?v=mnyKrsU49Zs&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=35
   - "C++ - Static Storage Class", https://www.youtube.com/watch?v=QJnIGL1KVhc&list=PLWPirh4EWFpGDG3--IKMLPoYrgfuhaz_t&index=37
