@@ -33,7 +33,7 @@
     int var = 8;
     int* ptr = &var;
     *ptr = 10; // change value of var from 8 to 10
-      LOG(var); //prints out 10
+    LOG(var); //prints out 10
     ```  
 
 #### Create a Variable in the Heap Instead of the Stack (portion of memory)
