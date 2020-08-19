@@ -16,8 +16,8 @@
   - syntax: void* pntr = nullptr;  <- completely typeless, (completely useless,) and has a memory address of 0
   - example to find memory address of a previously declared int  
     ```  
-      int var = 8;
-      void* ptr = &var;
+    int var = 8;
+    void* ptr = &var;
     ```  
     ^ explanation: if you put an "&" before the variable, you're basically asking what the memory address of the variable is and assigning it to the pointer  
 
@@ -30,9 +30,9 @@
   - stick an asterisk in front of the pointer, so you can read from/write to your data
   - example of dereferencing (3rd line):  
     ```  
-      int var = 8;
-      int* ptr = &var;
-      *ptr = 10; // change value of var from 8 to 10
+    int var = 8;
+    int* ptr = &var;
+    *ptr = 10; // change value of var from 8 to 10
       LOG(var); //prints out 10
     ```  
 
